@@ -22,9 +22,10 @@ const banner = document.querySelector('div div')
 banner.className = 'banner'
 
 // 6: Using traversal, store the wrapper div in a variable named `wrapper`
-
+const wrapper = banner.parentNode
 wrapper.style.backgroundColor = '#fcfcfc'
+console.log(wrapper)
 
 // 7: Using traversal, store the body in a variable named `body`
-
+const body = wrapper.parentNode
 body.style.backgroundColor = '#f8fdf3'
